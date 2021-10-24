@@ -33,6 +33,7 @@ interface IBEP20 {
   /**
    * @dev Returns the amount of tokens owned by `account`.
    */
+   
   function balanceOf(address account) external view returns (uint256);
 
   /**
